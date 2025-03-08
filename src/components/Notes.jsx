@@ -1,4 +1,5 @@
 import "../styles/Notes.css";
+import TrashIcon  from "../assets/icons8-trash(1).svg";
 import { useState, useEffect } from "react";
 
 function Note({ note, onUpdate, onDelete }) {
@@ -45,7 +46,7 @@ function Note({ note, onUpdate, onDelete }) {
             >
                 <img
                     id="trash-icon"
-                    src="../public/icons8-trash(1).svg"
+                    src={TrashIcon}
                     alt="Delete icon"
                 />
             </button>
