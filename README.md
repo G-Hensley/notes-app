@@ -5,19 +5,20 @@ Hey! This is a little notes app I threw together using React and Vite. It’s a 
 ## Folder Structure
 Here’s how the project is laid out:
 
+```plaintext
 Notes-App/
 ├── src/
 │   ├── components/
-│   │   ├── Note.jsx
-│   │   └── NoteList.jsx
-│   ├── App.jsx
-│   ├── index.jsx
-│   └── styles/
-├── public/
-├── vite.config.js
-├── package.json
-└── README.md
-
+│   │   ├── Note.jsx          # Component for individual notes
+│   │   └── NoteList.jsx      # Component for displaying the list of notes
+│   ├── App.jsx               # Main app component
+│   ├── index.jsx             # Entry point for the application
+│   └── styles/               # CSS or styled components (if any)
+├── public/                   # Static assets like images
+├── vite.config.js            # Vite configuration file
+├── package.json              # Project dependencies and scripts
+└── README.md                 # Project documentation (this file)
+```
 ## Tools Used
 - **Framework**: React
 - **Build Tool**: Vite
