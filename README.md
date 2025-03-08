@@ -7,16 +7,16 @@ Here’s how the project is laid out:
 
 Notes-App/
 ├── src/
-│   ├── components/           # React components for notes functionality
-│   │   ├── Note.jsx          # Component for individual notes
-│   │   └── NoteList.jsx      # Component for displaying the list of notes
-│   ├── App.jsx               # Main app component
-│   ├── index.jsx             # Entry point for the application
-│   └── styles/               # CSS or styled components (if any)
-├── public/                   # Static assets like images or icons
-├── vite.config.js            # Vite configuration file
-├── package.json              # Project dependencies and scripts
-└── README.md                 # Project documentation (this file)
+│   ├── components/
+│   │   ├── Note.jsx
+│   │   └── NoteList.jsx
+│   ├── App.jsx
+│   ├── index.jsx
+│   └── styles/
+├── public/
+├── vite.config.js
+├── package.json
+└── README.md
 
 ## Tools Used
 - **Framework**: React
